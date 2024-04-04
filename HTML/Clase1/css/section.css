@@ -1,0 +1,22 @@
+section h2:hover{
+    color: blue;
+}
+
+.imagen{
+    width: 150px;
+    cursor: pointer;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen:hover{
+    transform: translate(-20px, 30px)
+}
+
+section ol li:hover{    
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+}

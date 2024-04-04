@@ -1,0 +1,7 @@
+main p::selection{
+    background: red;
+}
+
+main p::first-line{
+    background-color: lightgreen;
+}
